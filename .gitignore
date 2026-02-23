@@ -47,3 +47,10 @@ out/
 /*.out
 out_expected.txt
 /*-timing.json
+my_stuff/1brc/measurements/measurements.txt
+my_stuff/1brc/measurements/measurements_20k.txt
+my_stuff/1brc/measurements/measurements_500k.txt
+my_stuff/1brc/measurements/measurements_5m.txt
+my_stuff/1brc/measurements/measurements_100m.txt
+/my_stuff/1brc/obj
+/my_stuff/CreateMeasurements/obj

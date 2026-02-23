@@ -1,0 +1,8 @@
+Original implementation was ~940 ms on 5m items
+Adding the queue took it to ~810 ms
+Both were single threaded
+
+Now I want to do multithreaded, with one thread reading from the file and creating chunks of work
+With one reader and one processor it goes to ~690 ms, but I'm way less confident it works
+
+Switching to 100m to get a better idea, runs in 7.13 seconds as it stands
